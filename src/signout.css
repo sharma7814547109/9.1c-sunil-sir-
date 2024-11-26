@@ -1,0 +1,49 @@
+/* Styling for the SignOut container */
+.signout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(65, 226, 210);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+/* Styling for the heading */
+h1 {
+  margin-top: 0;
+  font-size: 24px; /* Increased font size */
+  color: #333;
+}
+
+/* Styling for the paragraph */
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Styling for the Sign Out button */
+button {
+  width: 50%; /* Set width to be more compact */
+  padding: 10px; /* Padding for better button height */
+  background-color: #923ecf; /* Purple background color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size for readability */
+  text-align: center;
+}
+
+button:hover {
+  background-color: #7b2a9e; /* Darker shade of purple on hover */
+  transition: background-color 0.3s;
+}
